@@ -1,0 +1,31 @@
+body{
+    margin: 0%;
+}
+div{
+    position:absolute;
+    top: 15%;
+    left: 30%;
+    border: 1px solid white;
+    border-radius: 9px;
+    padding: 50px;
+}
+button {
+    margin: 15px;
+    width: 90px;
+    height: 35px;
+    background-color: aquamarine;
+    border-radius: 9px;
+}
+button:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+input{
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 9px;
+}
+input:focus{
+    background-color: rgba(70,131,180,0.35);
+}
